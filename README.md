@@ -14,7 +14,7 @@
 <p>스크롤애니메이션은 aos.js 사용했다. 처음사용해 보는데 완벽하게 사용은 아직 못해도 비슷하게는 구현 가능하다는 점에서 역시 입소문 자자한 라이브러리 인증</p>
 <hr>
 <p>호스팅 주소</p>
-<span>web-tossbank.netlify.app</span>
+<p>web-tossbank.netlify.app</p>
 <p>추후에 수정, 추가 해야 할 부분</p>
 <p>추가 : 반응형</p>
 <p>수정 : navbar</p>
