@@ -82,7 +82,9 @@ html {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-
+}
+.menu__btn:hover{
+  cursor: pointer;
 }
 .tab_wrap{
   /* border: 1px solid lime; */
@@ -183,7 +185,7 @@ html {
     opacity: 1;
   }100%{
     color: rgb(33,37,41);
-    opacity: 0.5;
+    opacity: 0.3;
   }
 }
 
