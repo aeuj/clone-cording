@@ -173,6 +173,7 @@ html {
 }
 .main_button{
   border: 0;
+  background-color: white;
 }
 
 @keyframes 스크롤버튼{
@@ -182,7 +183,7 @@ html {
     opacity: 1;
   }100%{
     color: rgb(33,37,41);
-    opacity: 0.3;
+    opacity: 0.5;
   }
 }
 
@@ -192,7 +193,6 @@ html {
   width: 42px;
   height: 42px;
   background-color: white;
-  
 }
 .main_click{
   animation: 스크롤버튼 2.5s cubic-bezier(0.79, 0.28, 0.4, 1.1) infinite; 
