@@ -7,7 +7,7 @@
   <title>토스뱅크</title>
   <link rel="icon" href="./image/favicon.ico">
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 <div class="wrap">
@@ -22,9 +22,9 @@
         <div class="header__menu">
           <ul class="menu__category">
             <li class="menu__navbar">
-              <a href="#">
-                <button class="menu__btn" aria-label="상품/서비스 안내">상품/서비스 안내</button>
-              </a>
+              <button class="menu__btn" aria-label="상품/서비스 안내"><a href="#"></a>상품/서비스 안내</a></button>
+              
+              
               <!-- 상품/서비스 안내 tab starts -->
               <div class="tab_wrap">
                 <div class="tab_box">
@@ -56,9 +56,8 @@
               <!-- 상품/서비스 안내 tab ends -->
             </li>
             <li class="menu__navbar">
-              <a href="#">
-                <button class="menu__btn" aria-label="고객센터">고객센터</button>
-              </a>
+                <button class="menu__btn" aria-label="고객센터"><a href="#"></a>고객센터</a></button>
+              
               <!-- 고객센터 tab starts -->
               <div class="tab_wrap">
                 <div class="tab_box">
@@ -148,6 +147,7 @@
   <main>
     <div style="flex:none; height:60px"></div>
     <section class="main_wrap">
+      <h2></h2>
       <div class="main_content">
         <span class="main_title">새로운 은행을 <br>만날 순간</span>
       </div>
@@ -156,11 +156,11 @@
       </div>
       <div class="main_box">
         <button class="main_button">
-          <a href="#click_moved">
           <div class="main_button_icon">
+          <a href="#click_moved">
             <svg xmlns="http://www.w3.org/2000/svg" id="click_move" class="main_click" viewBox="0 0 200 200" width="200" height="200" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_2"><rect width="200" height="200" x="0" y="0"/></clipPath></defs><g clip-path="url(#__lottie_element_2)"><g style="display: block;" transform="matrix(0.3134399950504303,0,0,0.3134399950504303,11.139762878417969,39.81369400024414)" opacity="0.1119252272728101"><path fill="rgb(33,37,41)" fill-opacity="1" d=" M283.4639892578125,274.375 C273.343994140625,274.375 263.2250061035156,272.17498779296875 253.79800415039062,267.7760009765625 C253.79800415039062,267.7760009765625 16.750999450683594,157.16299438476562 16.750999450683594,157.16299438476562 C4.238999843597412,151.32400512695312 -1.1710000038146973,136.447998046875 4.668000221252441,123.93599700927734 C10.505999565124512,111.42400360107422 25.381999969482422,106.01499938964844 37.89400100708008,111.85399627685547 C37.89400100708008,111.85399627685547 274.9410095214844,222.46600341796875 274.9410095214844,222.46600341796875 C280.3580017089844,224.9929962158203 286.5710144042969,224.99200439453125 291.98699951171875,222.46600341796875 C291.98699951171875,222.46600341796875 529.0349731445312,111.85399627685547 529.0349731445312,111.85399627685547 C541.5469970703125,106.01399993896484 556.4219970703125,111.42400360107422 562.260986328125,123.93599700927734 C568.0989990234375,136.447998046875 562.6890258789062,151.32400512695312 550.177001953125,157.16299438476562 C550.177001953125,157.16299438476562 313.1300048828125,267.7760009765625 313.1300048828125,267.7760009765625 C303.7040100097656,272.17498779296875 293.5840148925781,274.375 283.4639892578125,274.375z"/></g></g></svg>
-          </div>
           </a>
+          </div>
         </button>
       </div>
     </section>
@@ -168,7 +168,7 @@
     <section class="account_wrap" id="click_moved">
       <div class="account_title">
         <div class="account_title_top" >
-          <h3 class="account_title_middle">하루만 넣어도<br>이자가 쌓이는 통장</br></h3>
+          <h3 class="account_title_middle">하루만 넣어도<br>이자가 쌓이는 통장<br></h3>
         </div>
         <div data-aos="fade-up" 
           data-aos-offset="94" 
@@ -183,10 +183,10 @@
           </p>
         </div>
       </div>
-      <div class="account_content">
+      <div class="account_content" >
         <div class="account_content_wrap" >
-          <div class="account_box">
-            <img src="./image/흰배경.png" alt="">
+          <div class="account_box" >
+            <img src="./image/흰배경.png" alt="" >
             <video class="account_video" autoplay loop muted >
               <source src="./video/video-01.mp4"/>
             </video>
@@ -203,12 +203,13 @@
     <section class="account_wrap">
       <div class="account_title">
         <div class="account_title_top">
-          <h3 class="account_title_middle">기대,<br>그 이상의 대출&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</br></h3>
+          <h3 class="account_title_middle">기대,<br>그 이상의 대출&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</br></h3>
         </div>
         <div class="account_title_bottom" data-aos="fade-up" 
         data-aos-offset="200" 
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000" >
+          data-aos-duration="2000"
+          data-aos-once="true" >
             단 한 번의 조회로<br>
             어렵고 복잡한 과정 없는 대출<br>
             토스뱅크에서는 가능
@@ -218,7 +219,7 @@
         <div class="account_content_wrap">
           <div class="account_box">
             <img src="./image/흰배경.png" alt="">
-            <video class="account_video"  autoplay loop muted />
+            <video class="account_video"  autoplay loop muted>
               <source src="./video/video-02.mp4"/>
             </video>
           </div>
@@ -229,8 +230,8 @@
     data-aos-offset="94" 
     data-aos-easing="ease-out-cubic"
     data-aos-duration="2000" 
-    data-aos-once="true"
-  >
+    data-aos-once="true">
+    </div>
     <section class="card_wrap">
       <div class="card_box">
         <h2 class="card_title">
@@ -242,9 +243,9 @@
       <div class="card_video">
         <div class="card_video_wrap">
           <div class="card_video_main">
-            <img class="card_video_img" src="/image/흰배경2.png" alt="">
+            <img class="card_video_img" src="./image/흰배경2.png" alt="">
             <video class="card_film"  autoplay loop muted>
-              <source src="/video/video-card-pc.mp4" />
+              <source src="./video/video-card-pc.mp4" />
             </video>
           </div>
         </div>
@@ -252,7 +253,6 @@
     </section>
     <section class="download_wrap">
       <div class="downdload_main">
-        <div class="download_empty"></div>
         <div class="download_title">
           <div class="download_content">
             <h3 class="download_story">
@@ -264,27 +264,27 @@
           <div class="download_button">
             <div class="download_button_wrap">
               <a class="dowmload_app" href="https://play.google.com/store/apps/details?id=viva.republica.toss">
-                <div class="download_logo">
-                  <span class="download_logo_wrap">
-                    <span class="download_logo_title"></span>
-                      <img src="/image/구글플레이.webp" alt="">
-                    </span>
+                <div class="download_logo_wrap">
+                  <span class="download_logo_title">
+                    <img src="./image/구글플레이.webp" alt="">
+                  </span>
                   <span class="download_font">Google Play 다운로드</span>
-                </div>
+                  <!-- div 닫기 하나 없음 -->
               </a>
             </div>
-            <div class="download_button">
-              <div class="download_button_wrap">
-                <a class="download_app" href="https://play.google.com/store/apps/details?id=viva.republica.toss">
-                  <div class="download_logo">
-                    <span class="download_logo_wrap">
-                      <span class="download_logo_title"></span>
-                        <img src="/image/애플스토어.webp" alt="">
-                      </span>
-                    <span class="download_font">App Store 다운로드</span>
-                  </div>
+          </div>
+          <div class="download_button">
+            <div class="download_button_wrap">
+              <a class="dowmload_app" href="https://play.google.com/store/apps/details?id=viva.republica.toss">
+                <div class="download_logo_wrap">
+                  <span class="download_logo_title">
+                    <img src="./image/애플스토어.webp" alt="">
+                  </span>
+                  <span class="download_font">Apple store 다운로드</span>
+                  <!-- div 닫기 하나 없음 -->
                 </a>
               </div>
+            </div>
           </div>
         </div>
       </div>
@@ -295,7 +295,7 @@
               <img class="barcode_barcode" src="./image/토스바코드.webp" alt="">
             </div>
             <div class="borcode_coin">
-              <img class="barcode_move" src="/image/돌아가는동전.png" alt="">
+              <img class="barcode_move" src="./image/돌아가는동전.png" alt="">
             </div>
           </div>
           <figcaption class="barcode_content">휴대전화로 QR코드를 찍고 토스뱅크를 미리 만나보세요</figcaption>
@@ -306,8 +306,10 @@
         <p class="finish_content">
           준법감시인 심의필 제2021077호 (2021.12.03.~2022.12.02.)
         </p>
+      </div>
     </section>
   </main>
+
   <footer class="footer_wrap">
     <div class="footer_inner">
       <div class="footer_title">
